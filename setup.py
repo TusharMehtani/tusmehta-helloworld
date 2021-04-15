@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="tusmehta-helloworld",
-    version=remove_version,  ## 0.0.X is unstable package number
+    version=remote_version,  ## 0.0.X is unstable package number
     description="Say Hello!",
     py_modules=["helloworld"],
     package_dir={"": "src"},
